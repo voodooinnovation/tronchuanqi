@@ -1,0 +1,46 @@
+unit LoadMapThread;
+
+interface
+uses
+  Windows, Classes, SysUtils;
+type
+  TLoadMapThread = class(TThread)
+    m_UserCriticalSection: TRTLCriticalSection;//临界区
+  private
+    { Private declarations }
+  protected
+    procedure Execute; override;
+  public
+    constructor Create(ThreadDone: TNotifyEvent);
+    destructor Destroy; override;
+  end;
+implementation
+uses MShare;
+
+constructor TLoadMapThread.Create(ThreadDone: TNotifyEvent);
+begin
+  //FreeOnTerminate := True;
+  inherited Create(True);
+  OnTerminate := ThreadDone;
+  Resume;
+end;
+
+destructor TLoadMapThread.Destroy;
+begin
+  inherited Destroy;
+end;
+
+procedure TLoadMapThread.Execute;
+begin
+  while not Self.Terminated{线程没有退出} do begin
+    if (g_MySelf = nil) or (g_ConnectionStep <> cnsPlay) then begin
+      Sleep(1);//延迟1秒
+      Continue;
+    end;
+    Map.LoadAllMap;//地图载入所有地图
+    Sleep(1);
+  end;
+end;
+
+end.
+

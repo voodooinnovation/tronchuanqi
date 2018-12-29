@@ -1,0 +1,8 @@
+login的工作原理 我似乎搞清楚了
+客户端发送登陆信息到logingate 
+logingate 处理包 过滤包 过滤IP 
+在发送给 loginsrv
+loginsrv发送信息给logingate 
+logingate处理数据 然后发送给客户端
+
+iplist.txt 绿色通道 不添加到禁止地址 不过滤cc攻击

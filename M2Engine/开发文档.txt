@@ -1,0 +1,21 @@
+E:\GameOfMir\GameOfMir\Common\EncryptUnit.pas 加密解密
+EncodeString()加密字符串 使用的下面两个函数
+DeCodeString()解密字符串
+Encode6BitBuf()加密
+Decode6BitBuf()解密
+
+E:\GameOfMir\GameOfMir\M2Engine\AboutUnit.pas 关于对话框
+E:\GameOfMir\GameOfMir\M2Engine\svMain.pas 主界面
+StartService()开始服务
+ReloadConfig()读取配置
+
+MENU_CONTROL_RELOAD_CONFClick 重新载入配置按钮 
+
+
+IntroScan.pas 场景 
+	TScene 场景基类 
+	TIntroScene 进入场景
+	TLoginScene 登陆场景
+	TSelectChrScene 选择人物场景
+	
+TLoginNotice 登陆公告

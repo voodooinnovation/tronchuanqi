@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{076758af-8d56-45af-9a58-96ea8a21eb05}</ProjectGuid>
+    <MainSource>MirClient.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>D:\Program Files\盛大网络\热血传奇\MirClient.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_MapFile>3</DCC_MapFile>
+    <DCC_ExeOutput>D:\热血传奇</DCC_ExeOutput>
+    <DCC_DcuOutput>..\Build\MirClient\</DCC_DcuOutput>
+    <DCC_ObjOutput>..\Build\MirClient\</DCC_ObjOutput>
+    <DCC_HppOutput>..\Build\MirClient\</DCC_HppOutput>
+    <DCC_UnitSearchPath>D:\Source\GameOfMir\Common</DCC_UnitSearchPath>
+    <DCC_ResourcePath>D:\Source\GameOfMir\Common</DCC_ResourcePath>
+    <DCC_ObjPath>D:\Source\GameOfMir\Common</DCC_ObjPath>
+    <DCC_IncludePath>D:\Source\GameOfMir\Common</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_MapFile>3</DCC_MapFile>
+    <DCC_ExeOutput>D:\Program Files\盛大网络\热血传奇</DCC_ExeOutput>
+    <DCC_DcuOutput>..\Build\MirClient\</DCC_DcuOutput>
+    <DCC_ObjOutput>..\Build\MirClient\</DCC_ObjOutput>
+    <DCC_HppOutput>..\Build\MirClient\</DCC_HppOutput>
+    <DCC_UnitSearchPath>..\Common</DCC_UnitSearchPath>
+    <DCC_ResourcePath>..\Common</DCC_ResourcePath>
+    <DCC_ObjPath>..\Common</DCC_ObjPath>
+    <DCC_IncludePath>..\Common</DCC_IncludePath>
+    <DCC_Define>DEBUG</DCC_Define>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">4</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">4</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">2052</VersionInfo><VersionInfo Name="CodePage">936</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">MakeGM</VersionInfoKeys><VersionInfoKeys Name="FileDescription">MakeGM游戏客户端</VersionInfoKeys><VersionInfoKeys Name="FileVersion">4.0.4.0</VersionInfoKeys><VersionInfoKeys Name="InternalName">MirClient</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright">Copyright 2008</VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename">MirClient.exe</VersionInfoKeys><VersionInfoKeys Name="ProductName">MakeGM游戏客户端</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">MirClient.dpr</Source></Source><Excluded_Packages /></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="MirClient.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\Common\CompressUnit.pas" />
+    <DCCReference Include="..\Common\CompressUnit1.pas" />
+    <DCCReference Include="..\Common\EncryptUnit.pas" />
+    <DCCReference Include="..\Common\Grobal2.pas" />
+    <DCCReference Include="..\Common\HUtil32.pas" />
+    <DCCReference Include="..\Common\MapFiles.pas" />
+    <DCCReference Include="..\Common\MD5EncodeStr.pas" />
+    <DCCReference Include="Actor.pas" />
+    <DCCReference Include="AxeMon.pas" />
+    <DCCReference Include="clEvent.pas" />
+    <DCCReference Include="ClFunc.pas" />
+    <DCCReference Include="ClMain.pas">
+      <Form>frmMain</Form>
+    </DCCReference>
+    <DCCReference Include="DrawScrn.pas" />
+    <DCCReference Include="DWinCtl.pas" />
+    <DCCReference Include="Fir.pas" />
+    <DCCReference Include="FState.pas">
+      <Form>FrmDlg</Form>
+    </DCCReference>
+    <DCCReference Include="GameImages.pas" />
+    <DCCReference Include="GuaJi.pas" />
+    <DCCReference Include="HerbActor.pas" />
+    <DCCReference Include="IntroScn.pas" />
+    <DCCReference Include="LoadMapThread.pas" />
+    <DCCReference Include="magiceff.pas" />
+    <DCCReference Include="MapUnit.pas" />
+    <DCCReference Include="Mpeg.pas" />
+    <DCCReference Include="MShare.pas" />
+    <DCCReference Include="PathFind.pas" />
+    <DCCReference Include="PlayScn.pas" />
+    <DCCReference Include="Share.pas" />
+    <DCCReference Include="SoundEngn.pas" />
+    <DCCReference Include="SoundUtil.pas" />
+    <DCCReference Include="Textures.pas" />
+    <DCCReference Include="Uib.pas" />
+    <DCCReference Include="WebBrowser\WelCome.pas">
+      <Form>frmWelCome</Form>
+    </DCCReference>
+    <DCCReference Include="Wil.pas" />
+    <DCCReference Include="Wis.pas" />
+    <DCCReference Include="wmUtil.pas" />
+  </ItemGroup>
+</Project>

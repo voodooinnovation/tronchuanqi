@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{11bd442c-f76a-4e0a-9225-a60689e5bf42}</ProjectGuid>
+    <MainSource>IcsDel100.dpk</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\IcsDel100.bpl</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+    <DCC_SYMBOL_DEPRECATED>False</DCC_SYMBOL_DEPRECATED>
+    <DCC_SYMBOL_LIBRARY>False</DCC_SYMBOL_LIBRARY>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_SYMBOL_EXPERIMENTAL>False</DCC_SYMBOL_EXPERIMENTAL>
+    <DCC_UNIT_LIBRARY>False</DCC_UNIT_LIBRARY>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+    <DCC_UNIT_DEPRECATED>False</DCC_UNIT_DEPRECATED>
+    <DCC_UNIT_EXPERIMENTAL>False</DCC_UNIT_EXPERIMENTAL>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_SYMBOL_DEPRECATED>False</DCC_SYMBOL_DEPRECATED>
+    <DCC_SYMBOL_LIBRARY>False</DCC_SYMBOL_LIBRARY>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_SYMBOL_EXPERIMENTAL>False</DCC_SYMBOL_EXPERIMENTAL>
+    <DCC_UNIT_LIBRARY>False</DCC_UNIT_LIBRARY>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+    <DCC_UNIT_DEPRECATED>False</DCC_UNIT_DEPRECATED>
+    <DCC_UNIT_EXPERIMENTAL>False</DCC_UNIT_EXPERIMENTAL>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>Package</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject> <Delphi.Personality>   <Parameters>
+      <Parameters Name="UseLauncher">False</Parameters>
+      <Parameters Name="LoadAllSymbols">True</Parameters>
+      <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+    </Parameters>
+    <Package_Options>
+      <Package_Options Name="PackageDescription">ICS (Internet Component Suite) for Delphi 2006</Package_Options>
+      <Package_Options Name="ImplicitBuild">True</Package_Options>
+      <Package_Options Name="DesigntimeOnly">False</Package_Options>
+      <Package_Options Name="RuntimeOnly">False</Package_Options>
+    </Package_Options>
+    <VersionInfo>
+      <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+      <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+      <VersionInfo Name="MajorVer">1</VersionInfo>
+      <VersionInfo Name="MinorVer">0</VersionInfo>
+      <VersionInfo Name="Release">0</VersionInfo>
+      <VersionInfo Name="Build">0</VersionInfo>
+      <VersionInfo Name="Debug">False</VersionInfo>
+      <VersionInfo Name="PreRelease">False</VersionInfo>
+      <VersionInfo Name="Special">False</VersionInfo>
+      <VersionInfo Name="Private">False</VersionInfo>
+      <VersionInfo Name="DLL">False</VersionInfo>
+      <VersionInfo Name="Locale">2060</VersionInfo>
+      <VersionInfo Name="CodePage">1252</VersionInfo>
+    </VersionInfo>
+    <VersionInfoKeys>
+      <VersionInfoKeys Name="CompanyName">OverByte</VersionInfoKeys>
+      <VersionInfoKeys Name="FileDescription">ICS - Internet Component Suite</VersionInfoKeys>
+      <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="InternalName">ICS</VersionInfoKeys>
+      <VersionInfoKeys Name="LegalCopyright">(c) 1997-2005 by Fran?ois PIETTE</VersionInfoKeys>
+      <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+      <VersionInfoKeys Name="OriginalFilename">IcsDel100</VersionInfoKeys>
+      <VersionInfoKeys Name="ProductName">ICS</VersionInfoKeys>
+      <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+    </VersionInfoKeys>
+    <Excluded_Packages>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <Excluded_Packages Name="C:\Documents and Settings\Administrateur\Mes documents\Borland Studio Projects\Bpl\IcsDel100.bpl">ICS (Internet Component Suite) for Delphi 2006</Excluded_Packages>
+      <Excluded_Packages Name="C:\Documents and Settings\Administrateur\Mes documents\Borland Studio Projects\bpl\IcsBcb100.bpl">IcsBcb100</Excluded_Packages>
+      <Excluded_Packages Name="C:\Documents and Settings\Administrateur\Mes documents\Borland Studio Projects\Bpl\MwDel100.bpl">MidWare for Delphi 2006</Excluded_Packages>
+    </Excluded_Packages>
+    <Source>
+      <Source Name="MainSource">IcsDel100.dpk</Source>
+    </Source>
+  </Delphi.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <ItemGroup />
+  <ItemGroup>
+    <DelphiCompile Include="IcsDel100.dpk">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="designide.dcp" />
+    <DCCReference Include="EmulVT.dcr" />
+    <DCCReference Include="EmulVT.pas" />
+    <DCCReference Include="FtpCli.dcr" />
+    <DCCReference Include="FtpCli.pas" />
+    <DCCReference Include="FtpSrv.dcr" />
+    <DCCReference Include="FtpSrv.pas" />
+    <DCCReference Include="FtpSrvC.pas" />
+    <DCCReference Include="FtpSrvT.pas" />
+    <DCCReference Include="HttpContCod.pas" />
+    <DCCReference Include="HttpProt.dcr" />
+    <DCCReference Include="HttpProt.pas" />
+    <DCCReference Include="HttpSrv.dcr" />
+    <DCCReference Include="HttpSrv.pas" />
+    <DCCReference Include="Icmp.pas" />
+    <DCCReference Include="IcsDES.pas" />
+    <DCCReference Include="IcsLogger.dcr" />
+    <DCCReference Include="IcsLogger.pas" />
+    <DCCReference Include="IcsMD4.pas" />
+    <DCCReference Include="IcsMD5.pas" />
+    <DCCReference Include="IcsNtlmMsgs.pas" />
+    <DCCReference Include="IcsSha1.pas" />
+    <DCCReference Include="IcsStreams.pas" />
+    <DCCReference Include="IcsUrl.pas" />
+    <DCCReference Include="IcsZlibHigh.pas" />
+    <DCCReference Include="IcsZLibObj.pas" />
+    <DCCReference Include="MimeDec.dcr" />
+    <DCCReference Include="MimeDec.pas" />
+    <DCCReference Include="MimeUtil.pas" />
+    <DCCReference Include="NntpCli.dcr" />
+    <DCCReference Include="NntpCli.pas" />
+    <DCCReference Include="Ping.dcr" />
+    <DCCReference Include="Ping.pas" />
+    <DCCReference Include="Pop3Prot.dcr" />
+    <DCCReference Include="Pop3Prot.pas" />
+    <DCCReference Include="rtl.dcp" />
+    <DCCReference Include="SmtpProt.dcr" />
+    <DCCReference Include="SmtpProt.pas" />
+    <DCCReference Include="TnCnx.dcr" />
+    <DCCReference Include="TnCnx.pas" />
+    <DCCReference Include="TnEmulVT.dcr" />
+    <DCCReference Include="TnEmulVT.pas" />
+    <DCCReference Include="TnOptFrm.pas" />
+    <DCCReference Include="TnScript.dcr" />
+    <DCCReference Include="TnScript.pas" />
+    <DCCReference Include="vcl.dcp" />
+    <DCCReference Include="WSockBuf.pas" />
+    <DCCReference Include="WSocket.dcr" />
+    <DCCReference Include="WSocket.pas" />
+    <DCCReference Include="WSocketE.pas" />
+    <DCCReference Include="WSocketS.dcr" />
+    <DCCReference Include="WSocketS.pas" />
+    <DCCReference Include="WSocketTS.dcr" />
+    <DCCReference Include="WSocketTS.pas" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+</Project>

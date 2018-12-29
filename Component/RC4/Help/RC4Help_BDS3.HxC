@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE HelpCollection>
+<HelpCollection
+  DTDVersion="1.0"
+  Id=""
+  FileVersion="0.0.0.0"
+  LangId=""
+  Font=""
+  FontSize=""
+  Charset=""
+  Title="Online Help"
+  Copyright="">
+
+  <AttributeDef File="RC4Help_BDS3.HxA"/>
+
+  <TOCDef File="RC4Help_BDS3.HxT"/>
+
+  <KeywordIndexDef File="RC4Help_BDS3_A.HxK"/>
+  <KeywordIndexDef File="RC4Help_BDS3_F.HxK"/>
+  <KeywordIndexDef File="RC4Help_BDS3_K.HxK"/>
+
+  <ItemMoniker Name="!DefaultFullTextSearch" ProgId="HxDs.HxFullTextSearch" InitData="FTS"/>
+  <ItemMoniker Name="!DefaultAssociativeIndex" ProgId="HxDs.HxIndex" InitData="A"/>
+  <ItemMoniker Name="!DefaultContextWindowIndex" ProgId="HxDs.HxIndex" InitData="F"/>
+  <ItemMoniker Name="!DefaultKeywordIndex" ProgId="HxDs.HxIndex" InitData="K"/>
+  <ItemMoniker Name="!DefaultTOC" ProgId="HxDs.HxHierarchy" InitData="RC4Help_BDS3"/>
+
+  <ToolData Name="MSVHWLogLevel" Value="3"/>
+  <ToolData Name="MSVHWLogFile" Value="RC4Help_BDS3.log"/>
+  <ToolData Name="MSVHWNamespace" Value="Raize.RC4Help_BDS3"/>
+  <ToolData Name="FAR.NamespaceDesc" Value="Raize Components 4.0 - VCL Edition"/>
+</HelpCollection>

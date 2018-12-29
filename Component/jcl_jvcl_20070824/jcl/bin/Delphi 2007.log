@@ -1,0 +1,203 @@
+================================================================================
+JCL 2.2 Release Build 3845
+==========Delphi 2007===========================================================
+Installed personalities :
+32 bit Delphi
+================================================================================
+Multiple profile installation
+Single profile installation
+================================================================================
+Saving conditional defines...
+Loaded template for include file E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include\jcl.template.inc
+Saved include file E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include\jcld11.inc
+Building source\common library units for Delphi 2007...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" bzip2 Jcl8087 JclAbstractContainers JclAlgorithms JclAnsiStrings JclArrayLists JclArraySets JclBase JclBinaryTrees JclCharsets JclCompilerUtils JclComplex JclCompression JclContainerIntf JclCounter JclDateTime JclDevToolsResources JclExprEval JclFileUtils JclHashMaps JclHashSets JclIDEUtils JclIniFiles JclLinkedLists JclLogic JclMath JclMIDI JclMime JclNotify JclPCRE JclQueues JclResources JclRTTI JclSchedule JclSimpleXml JclSortedMaps JclStacks JclStatistics JclStreams JclStrHashMap JclStringConversions JclStringLists JclStrings JclSynch JclSysInfo JclSysUtils JclTrees JclUnicode JclUnitConv JclUnitVersioning JclUnitVersioningProviders JclUsesUtils JclValidation JclVectors JclWideStrings pcre zlibh --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -I"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates" -R"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+546822 lines, 2.98 seconds, 52449 bytes code, 16852 bytes data.
+Building source\windows library units for Delphi 2007...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" Hardlinks JclAppInst JclCIL JclCLR JclCOM JclConsole JclDebug JclDebugSerialization JclDebugXMLDeserializer JclDebugXMLSerializer JclDotNet JclHelpUtils JclHookExcept JclLANMan JclLocales JclMapi JclMetadata JclMiscel JclMsdosSys JclMultimedia JclNTFS JclPeImage JclRegistry JclSecurity JclShell JclStructStorage JclSvcCtrl JclTask JclTD32 JclTimeZones JclWin32 JclWin32Ex JclWinMIDI mscoree_TLB mscorlib_TLB MSHelpServices_TLB MSTask sevenzip Snmp --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -I"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates" -R"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+212711 lines, 1.67 seconds, 2157 bytes code, 188 bytes data.
+Building source\vcl library units for Delphi 2007...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" JclFont JclGraphics JclGraphUtils JclOpenDialogFavorites JclOpenDialogHooks JclPrint JclVclResources JclVersionControl JclVersionCtrlCVSImpl JclVersionCtrlSVNImpl --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -I"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates" -R"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+38537 lines, 0.69 seconds, 3652 bytes code, 36 bytes data.
+Building devtools\jpp library units for Delphi 2007...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" JppLexer JppMain JppParser JppState --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -I"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates" -R"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+13006 lines, 0.22 seconds, 6776 bytes code, 28 bytes data.
+Building devtools\jpp\Templates library units for Delphi 2007...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" JclAlgorithmsTemplates JclArrayListsTemplates JclArraySetsTemplates JclBinaryTreesTemplates JclContainer1DTemplates JclContainer2DTemplates JclContainerIntfTemplates JclContainerKnownMaps JclContainerKnownTypes JclContainerTemplates JclContainerTypes JclExcDlgTemplates JclHashMapsTemplates JclLinkedListsTemplates JclQueuesTemplates JclSortedMapsTemplates JclStacksTemplates JclTemplates JclTreesTemplates JclVectorsTemplates --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -I"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates" -R"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+61949 lines, 1.44 seconds, 3581 bytes code, 28 bytes data.
+Building source\common library debug units for Delphi 2007...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" bzip2 Jcl8087 JclAbstractContainers JclAlgorithms JclAnsiStrings JclArrayLists JclArraySets JclBase JclBinaryTrees JclCharsets JclCompilerUtils JclComplex JclCompression JclContainerIntf JclCounter JclDateTime JclDevToolsResources JclExprEval JclFileUtils JclHashMaps JclHashSets JclIDEUtils JclIniFiles JclLinkedLists JclLogic JclMath JclMIDI JclMime JclNotify JclPCRE JclQueues JclResources JclRTTI JclSchedule JclSimpleXml JclSortedMaps JclStacks JclStatistics JclStreams JclStrHashMap JclStringConversions JclStringLists JclStrings JclSynch JclSysInfo JclSysUtils JclTrees JclUnicode JclUnitConv JclUnitVersioning JclUnitVersioningProviders JclUsesUtils JclValidation JclVectors JclWideStrings pcre zlibh --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib\debug" -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\debug" -I"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates" -R"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+546822 lines, 4.48 seconds, 52621 bytes code, 16852 bytes data.
+Building source\windows library debug units for Delphi 2007...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" Hardlinks JclAppInst JclCIL JclCLR JclCOM JclConsole JclDebug JclDebugSerialization JclDebugXMLDeserializer JclDebugXMLSerializer JclDotNet JclHelpUtils JclHookExcept JclLANMan JclLocales JclMapi JclMetadata JclMiscel JclMsdosSys JclMultimedia JclNTFS JclPeImage JclRegistry JclSecurity JclShell JclStructStorage JclSvcCtrl JclTask JclTD32 JclTimeZones JclWin32 JclWin32Ex JclWinMIDI mscoree_TLB mscorlib_TLB MSHelpServices_TLB MSTask sevenzip Snmp --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib\debug" -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\debug" -I"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates" -R"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+212711 lines, 2.31 seconds, 2298 bytes code, 188 bytes data.
+Building source\vcl library debug units for Delphi 2007...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" JclFont JclGraphics JclGraphUtils JclOpenDialogFavorites JclOpenDialogHooks JclPrint JclVclResources JclVersionControl JclVersionCtrlCVSImpl JclVersionCtrlSVNImpl --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib\debug" -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\debug" -I"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates" -R"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+38537 lines, 1.34 seconds, 3921 bytes code, 36 bytes data.
+Building devtools\jpp library debug units for Delphi 2007...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" JppLexer JppMain JppParser JppState --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib\debug" -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\debug" -I"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates" -R"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+13006 lines, 0.28 seconds, 7436 bytes code, 28 bytes data.
+Building devtools\jpp\Templates library debug units for Delphi 2007...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" JclAlgorithmsTemplates JclArrayListsTemplates JclArraySetsTemplates JclBinaryTreesTemplates JclContainer1DTemplates JclContainer2DTemplates JclContainerIntfTemplates JclContainerKnownMaps JclContainerKnownTypes JclContainerTemplates JclContainerTypes JclExcDlgTemplates JclHashMapsTemplates JclLinkedListsTemplates JclQueuesTemplates JclSortedMapsTemplates JclStacksTemplates JclTemplates JclTreesTemplates JclVectorsTemplates --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib\debug" -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\debug" -I"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates" -R"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+61949 lines, 1.84 seconds, 3650 bytes code, 28 bytes data.
+Building E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\Jcl.dpk...
+Cleaning package cache for Jcl110.bpl
+Cleaning ok
+Compiling package E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\Jcl.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\Jcl.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -N"..\..\lib\d11" -I"..\..\lib\d11;..\..\source\include" -R"..\..\lib\d11;..\..\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\;C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Dcp;..\..\lib\d11;..\..\source\include" -LN"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -LE"C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+130 lines, 0.83 seconds, 1469664 bytes code, 143568 bytes data.
+Compilation success
+...done.
+Building E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclContainers.dpk...
+Cleaning package cache for JclContainers110.bpl
+Cleaning ok
+Compiling package E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclContainers.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclContainers.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -N"..\..\lib\d11" -I"..\..\lib\d11;..\..\source\include" -R"..\..\lib\d11;..\..\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\;C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Dcp;..\..\lib\d11;..\..\source\include" -LN"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -LE"C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+69 lines, 0.23 seconds, 1390772 bytes code, 1068 bytes data.
+Compilation success
+...done.
+Building E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclDeveloperTools.dpk...
+Cleaning package cache for JclDeveloperTools110.bpl
+Cleaning ok
+Compiling package E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclDeveloperTools.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclDeveloperTools.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -N"..\..\lib\d11" -I"..\..\lib\d11;..\..\source\include" -R"..\..\lib\d11;..\..\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\;C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Dcp;..\..\lib\d11;..\..\source\include" -LN"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -LE"C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+86 lines, 0.34 seconds, 252816 bytes code, 12552 bytes data.
+Compilation success
+...done.
+Building E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclVcl.dpk...
+Cleaning package cache for JclVcl110.bpl
+Cleaning ok
+Compiling package E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclVcl.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclVcl.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -N"..\..\lib\d11" -I"..\..\lib\d11;..\..\source\include" -R"..\..\lib\d11;..\..\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\;C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Dcp;..\..\lib\d11;..\..\source\include" -LN"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -LE"C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+68 lines, 0.14 seconds, 92244 bytes code, 1760 bytes data.
+Compilation success
+...done.
+Building E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclBaseExpert.dpk...
+Cleaning package cache for JclBaseExpert110.bpl
+Cleaning ok
+Compiling package E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclBaseExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclBaseExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -N"..\..\lib\d11" -I"..\..\lib\d11;..\..\source\include" -R"..\..\lib\d11;..\..\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\;C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Dcp;..\..\lib\d11;..\..\source\include" -LN"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -LE"C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+21726 lines, 0.20 seconds, 39996 bytes code, 616 bytes data.
+Compilation success
+...done.
+Building E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclDebugExpert.dpk...
+Cleaning package cache for JclDebugExpert110.bpl
+Cleaning ok
+Compiling package E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclDebugExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclDebugExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -N"..\..\lib\d11" -I"..\..\lib\d11;..\..\source\include" -R"..\..\lib\d11;..\..\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\;C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Dcp;..\..\lib\d11;..\..\source\include" -LN"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -LE"C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+6128 lines, 0.16 seconds, 29680 bytes code, 368 bytes data.
+Compilation success
+...done.
+Building E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclProjectAnalysisExpert.dpk...
+Cleaning package cache for JclProjectAnalysisExpert110.bpl
+Cleaning ok
+Compiling package E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclProjectAnalysisExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclProjectAnalysisExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -N"..\..\lib\d11" -I"..\..\lib\d11;..\..\source\include" -R"..\..\lib\d11;..\..\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\;C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Dcp;..\..\lib\d11;..\..\source\include" -LN"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -LE"C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+4957 lines, 0.16 seconds, 19588 bytes code, 232 bytes data.
+Compilation success
+...done.
+Building E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclFavoriteFoldersExpert.dpk...
+Cleaning package cache for JclFavoriteFoldersExpert110.bpl
+Cleaning ok
+Compiling package E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclFavoriteFoldersExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclFavoriteFoldersExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -N"..\..\lib\d11" -I"..\..\lib\d11;..\..\source\include" -R"..\..\lib\d11;..\..\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\;C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Dcp;..\..\lib\d11;..\..\source\include" -LN"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -LE"C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+2037 lines, 0.14 seconds, 5240 bytes code, 96 bytes data.
+Compilation success
+...done.
+Building E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclRepositoryExpert.dpk...
+Cleaning package cache for JclRepositoryExpert110.bpl
+Cleaning ok
+Compiling package E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclRepositoryExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclRepositoryExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -N"..\..\lib\d11" -I"..\..\lib\d11;..\..\source\include" -R"..\..\lib\d11;..\..\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\;C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Dcp;..\..\lib\d11;..\..\source\include" -LN"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -LE"C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+22464 lines, 0.22 seconds, 32788 bytes code, 600 bytes data.
+Compilation success
+...done.
+Building E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclSIMDViewExpert.dpk...
+Cleaning package cache for JclSIMDViewExpert110.bpl
+Cleaning ok
+Compiling package E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclSIMDViewExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclSIMDViewExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -N"..\..\lib\d11" -I"..\..\lib\d11;..\..\source\include" -R"..\..\lib\d11;..\..\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\;C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Dcp;..\..\lib\d11;..\..\source\include" -LN"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -LE"C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+12762 lines, 0.17 seconds, 42112 bytes code, 868 bytes data.
+Compilation success
+...done.
+Building E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclStackTraceViewerExpert.dpk...
+Cleaning package cache for JclStackTraceViewerExpert110.bpl
+Cleaning ok
+Compiling package E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclStackTraceViewerExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\packages\d11\JclStackTraceViewerExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\5.0\lib" -N"..\..\lib\d11" -I"..\..\lib\d11;..\..\source\include" -R"..\..\lib\d11;..\..\source\include" -U"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\;C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Dcp;..\..\lib\d11;..\..\source\include" -LN"E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11" -LE"C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+29742 lines, 0.23 seconds, 47560 bytes code, 676 bytes data.
+Compilation success
+...done.
+Added "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\include" to library search path.
+Added "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\common;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\windows;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\source\vcl;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp;E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\devtools\jpp\Templates" to library browsing path.
+Added "E:\GameOfMir\GameOfMir\Component\jcl_jvcl_20070824\jcl\lib\d11\debug" to Debug DCU Path.
+Cleaning package cache for JclBaseExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclBaseExpert110.bpl
+Registration ok
+Cleaning package cache for JclDebugExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclDebugExpert110.bpl
+Registration ok
+Cleaning package cache for JclProjectAnalysisExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclProjectAnalysisExpert110.bpl
+Registration ok
+Cleaning package cache for JclFavoriteFoldersExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclFavoriteFoldersExpert110.bpl
+Registration ok
+Cleaning package cache for JclRepositoryExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclRepositoryExpert110.bpl
+Registration ok
+Cleaning package cache for JclSIMDViewExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclSIMDViewExpert110.bpl
+Registration ok
+Cleaning package cache for JclStackTraceViewerExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclStackTraceViewerExpert110.bpl
+Registration ok

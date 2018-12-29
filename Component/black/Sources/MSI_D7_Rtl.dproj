@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{7e107d23-330f-4d59-b9db-540aea2f10fc}</ProjectGuid>
+    <MainSource>MSI_D7_Rtl.dpk</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\MSI_D7_Rtl.bpl</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>Package</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Package_Options><Package_Options Name="PackageDescription">MiTeC System Information Component</Package_Options><Package_Options Name="ImplicitBuild">False</Package_Options><Package_Options Name="DesigntimeOnly">False</Package_Options><Package_Options Name="RuntimeOnly">True</Package_Options></Package_Options><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">2052</VersionInfo><VersionInfo Name="CodePage">936</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">MSI_D7_Rtl.dpk</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="MSI_D7_Rtl.dpk">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\..\..\MirClient\vcl.dcp" />
+    <DCCReference Include="..\..\..\MirClient\VclSmp.dcp" />
+    <DCCReference Include="..\..\..\MirClient\vclx.dcp" />
+    <DCCReference Include="MiTeC_AccountsNT.pas" />
+    <DCCReference Include="MiTeC_AdvAPI.pas" />
+    <DCCReference Include="MiTeC_CtrlRtns.pas" />
+    <DCCReference Include="MiTeC_Datetime.pas" />
+    <DCCReference Include="MiTeC_Dialogs.pas" />
+    <DCCReference Include="MiTeC_EventLogNT.pas" />
+    <DCCReference Include="MiTeC_IpHlpAPI.pas" />
+    <DCCReference Include="MiTeC_JobsNT.pas" />
+    <DCCReference Include="MiTeC_Journal.pas" />
+    <DCCReference Include="MiTeC_Native.pas" />
+    <DCCReference Include="MiTeC_NetAPI32.pas" />
+    <DCCReference Include="MiTeC_NTDDK.pas" />
+    <DCCReference Include="MiTeC_Params.pas" />
+    <DCCReference Include="MiTeC_PSAPI.pas" />
+    <DCCReference Include="MiTeC_Routines.pas" />
+    <DCCReference Include="MiTeC_ServerNT.pas" />
+    <DCCReference Include="MiTeC_Shares.pas" />
+    <DCCReference Include="MiTeC_Shell.pas" />
+    <DCCReference Include="MiTeC_StrUtils.pas" />
+    <DCCReference Include="MiTeC_SvrAPI.pas" />
+    <DCCReference Include="MiTeC_USB.pas" />
+    <DCCReference Include="MiTeC_WinIOCTL.pas" />
+    <DCCReference Include="MiTeC_WkstaNT.pas" />
+    <DCCReference Include="MiTeC_WnASPI32.pas" />
+    <DCCReference Include="MSI_APM.pas" />
+    <DCCReference Include="MSI_Common.pas" />
+    <DCCReference Include="MSI_Console.pas" />
+    <DCCReference Include="MSI_CPU.pas" />
+    <DCCReference Include="MSI_CPUUsage.pas" />
+    <DCCReference Include="MSI_DetailDlg.pas">
+      <Form>dlgMSI_Detail</Form>
+    </DCCReference>
+    <DCCReference Include="MSI_Devices.pas" />
+    <DCCReference Include="MSI_Disk.pas" />
+    <DCCReference Include="MSI_Display.pas" />
+    <DCCReference Include="MSI_DMA.pas" />
+    <DCCReference Include="MSI_Engines.pas" />
+    <DCCReference Include="MSI_ExceptionStack.pas">
+      <Form>dlgExceptionStack</Form>
+    </DCCReference>
+    <DCCReference Include="msi_gui.pas" />
+    <DCCReference Include="MSI_Machine.pas" />
+    <DCCReference Include="MSI_Media.pas" />
+    <DCCReference Include="MSI_Memory.pas" />
+    <DCCReference Include="MSI_Network.pas" />
+    <DCCReference Include="MSI_OS.pas" />
+    <DCCReference Include="MSI_Overview.pas">
+      <Form>frmMSI_Overview</Form>
+    </DCCReference>
+    <DCCReference Include="MSI_Printers.pas" />
+    <DCCReference Include="MSI_Processes.pas" />
+    <DCCReference Include="MSI_ResourcesDlg.pas">
+      <Form>dlgResources</Form>
+    </DCCReference>
+    <DCCReference Include="MSI_SMBIOS.pas" />
+    <DCCReference Include="MSI_Software.pas" />
+    <DCCReference Include="MSI_Splash.pas">
+      <Form>scrMSI_Splash</Form>
+    </DCCReference>
+    <DCCReference Include="MSI_Startup.pas" />
+    <DCCReference Include="MSI_Storage.pas" />
+    <DCCReference Include="MSI_USB.pas" />
+  </ItemGroup>
+</Project>

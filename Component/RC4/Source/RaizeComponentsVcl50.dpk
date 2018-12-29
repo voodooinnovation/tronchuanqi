@@ -1,0 +1,40 @@
+// DO NOT add RzComps.inc include file to VCL50-based packages.
+// The OBJEXPORTALL directive causes an Internal Error: P665 when compiling
+// under C++Builder 5.
+
+package RaizeComponentsVcl50;
+
+{$R 'RaizeComponentsVcl.res'}
+
+{$ALIGN ON}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $50000000}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+{$I RaizeComponentsVcl_Description.inc}
+
+requires
+  Vcl50,
+  VclX50;
+
+{$I RaizeComponentsVcl_Contains.inc}
+
+end.

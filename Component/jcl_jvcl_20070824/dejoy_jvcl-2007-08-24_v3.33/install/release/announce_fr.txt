@@ -1,0 +1,27 @@
+To:
+news://amis.grizzlydev.com/nzn.fr.delphi
+news://news.delphinaute.be/delphi
+Developpez.com (delphi@redaction-developpez.com)
+
+
+Sujet: 
+ANN: JVCL 3.32 est disponible
+Corps:
+L'équipe JVCL est fière d'annoncer la sortie de la version stable de la bibliothèque de composants JVCL version 3.32.
+
+La JVCL est une bibliothèque comprenant environ 600 composants visuels et non-visuels pour Delphi 5, 6, 7, 2005, 2006 et 2007; C++Builder 5, 6, 2006 et 2007. La JVCL est distribué sous licence Mozilla Public License Version 1.1 (http://www.mozilla.org/MPL/MPL-1.1.html), est entièrement gratuite pour toute utilisation (open source, shareware ou commerciale) et inclus le code source de tous les composants.
+
+Cette version apport le support de C++Builder 2007
+
+Cette sortie est disponible en quatre distributions :
+- Installation complète + dernière JCL
+- Installation complète sans JCL
+- Source et exemples
+- Source uniquement
+
+La version actuelle est JVCL 3.32.
+
+
+
+L'équipe JVCL
+http://jvcl.sourceforge.net

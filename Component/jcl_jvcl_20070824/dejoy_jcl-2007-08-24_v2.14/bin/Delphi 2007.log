@@ -1,0 +1,151 @@
+JCL 1.101 Testing Revision 2140
+Delphi 2007=================================
+Installed personalities :
+32 bit Delphi
+============================================
+Saving conditional defines...
+Loaded template for include file E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\source\jcl.template.inc
+Saved include file E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\source\jcld11.inc
+Added "E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\lib\d11;E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\source" to library search path.
+Added "E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\source\common;E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\source\windows;E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\source\vcl;E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\source\visclx" to library browsing path.
+Added "E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\lib\d11\debug" to Debug DCU Path.
+Making common library units for Delphi 2007
+Compiling .dcu files...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" bzip2 Jcl8087 JclAbstractContainers JclAlgorithms JclAnsiStrings JclArrayLists JclArraySets JclBase JclBinaryTrees JclBorlandTools JclComplex JclCompression JclContainerIntf JclCounter JclDateTime JclEDI JclEDISEF JclEDITranslators JclEDIXML JclEDI_ANSIX12 JclEDI_ANSIX12_Ext JclEDI_UNEDIFACT JclEDI_UNEDIFACT_Ext JclExprEval JclFileUtils JclHashMaps JclHashSets JclIniFiles JclLinkedLists JclLogic JclMath JclMIDI JclMime JclPCRE JclQueues JclResources JclRTTI JclSchedule JclSimpleXml JclStacks JclStatistics JclStreams JclStrHashMap JclStringLists JclStrings JclSysInfo JclSysUtils JclUnitConv JclUnitVersioning JclUnitVersioningProviders JclValidation JclVectors JclWideStrings pcre --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -M -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"..\..\lib\d11" -I".." -U".;..\windows;..\vcl;..\visclx" -R".;..\windows;..\vcl;..\visclx"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+292203 lines, 2.08 seconds, 85614 bytes code, 30828 bytes data.
+Making windows library units for Delphi 2007
+Compiling .dcu files...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" Hardlinks JclAppInst JclCIL JclCLR JclCOM JclConsole JclDebug JclDotNet JclHookExcept JclLANMan JclLocales JclMapi JclMetadata JclMiscel JclMsdosSys JclMultimedia JclNTFS JclPeImage JclRegistry JclSecurity JclShell JclStructStorage JclSvcCtrl JclSynch JclTask JclTD32 JclUnicode JclWideFormat JclWin32 JclWin32Ex JclWinMIDI mscoree_TLB mscorlib_TLB MSHelpServices_TLB MSTask Snmp zlibh --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -M -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"..\..\lib\d11" -I".." -U"..\common;.;..\vcl;..\visclx" -R"..\common;.;..\vcl;..\visclx"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+199304 lines, 1.53 seconds, 50243 bytes code, 16736 bytes data.
+Making vcl library units for Delphi 2007
+Compiling .dcu files...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" JclFont JclGraphics JclGraphUtils JclPrint --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -M -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"..\..\lib\d11" -I".." -U"..\common;..\windows;.;..\visclx" -R"..\common;..\windows;.;..\visclx"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+17537 lines, 0.30 seconds, 8835 bytes code, 32 bytes data.
+Making common library debug units for Delphi 2007
+Compiling .dcu files...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" bzip2 Jcl8087 JclAbstractContainers JclAlgorithms JclAnsiStrings JclArrayLists JclArraySets JclBase JclBinaryTrees JclBorlandTools JclComplex JclCompression JclContainerIntf JclCounter JclDateTime JclEDI JclEDISEF JclEDITranslators JclEDIXML JclEDI_ANSIX12 JclEDI_ANSIX12_Ext JclEDI_UNEDIFACT JclEDI_UNEDIFACT_Ext JclExprEval JclFileUtils JclHashMaps JclHashSets JclIniFiles JclLinkedLists JclLogic JclMath JclMIDI JclMime JclPCRE JclQueues JclResources JclRTTI JclSchedule JclSimpleXml JclStacks JclStatistics JclStreams JclStrHashMap JclStringLists JclStrings JclSysInfo JclSysUtils JclUnitConv JclUnitVersioning JclUnitVersioningProviders JclValidation JclVectors JclWideStrings pcre --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -M -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"..\..\lib\d11\debug" -I".." -U".;..\windows;..\vcl;..\visclx" -R".;..\windows;..\vcl;..\visclx"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+292203 lines, 2.08 seconds, 86407 bytes code, 30828 bytes data.
+Making windows library debug units for Delphi 2007
+Compiling .dcu files...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" Hardlinks JclAppInst JclCIL JclCLR JclCOM JclConsole JclDebug JclDotNet JclHookExcept JclLANMan JclLocales JclMapi JclMetadata JclMiscel JclMsdosSys JclMultimedia JclNTFS JclPeImage JclRegistry JclSecurity JclShell JclStructStorage JclSvcCtrl JclSynch JclTask JclTD32 JclUnicode JclWideFormat JclWin32 JclWin32Ex JclWinMIDI mscoree_TLB mscorlib_TLB MSHelpServices_TLB MSTask Snmp zlibh --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -M -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"..\..\lib\d11\debug" -I".." -U"..\common;.;..\vcl;..\visclx" -R"..\common;.;..\vcl;..\visclx"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+199304 lines, 1.36 seconds, 50389 bytes code, 16736 bytes data.
+Making vcl library debug units for Delphi 2007
+Compiling .dcu files...
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" JclFont JclGraphics JclGraphUtils JclPrint --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -M -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"..\..\lib\d11\debug" -I".." -U"..\common;..\windows;.;..\visclx" -R"..\common;..\windows;.;..\visclx"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+17537 lines, 0.27 seconds, 10942 bytes code, 32 bytes data.
+Compiling package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\Jcl.dpk...
+Cleaning package cache for Jcl110.bpl
+Cleaning ok
+Compiling package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\Jcl.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\Jcl.dpk" --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -N"..\..\lib\d11\debug" -I"..\..\lib\d11\debug;..\..\source" -R"..\..\lib\d11\debug;..\..\source" -U"..\..\lib\d11;c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\dcp;..\..\lib\d11\debug;..\..\source" -LN"..\..\lib\d11" -LE"c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+137 lines, 0.41 seconds, 1447068 bytes code, 81012 bytes data.
+Compilation success
+...done.
+Compiling package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclVcl.dpk...
+Cleaning package cache for JclVcl110.bpl
+Cleaning ok
+Compiling package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclVcl.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclVcl.dpk" --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -N"..\..\lib\d11\debug" -I"..\..\lib\d11\debug;..\..\source" -R"..\..\lib\d11\debug;..\..\source" -U"..\..\lib\d11;c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\dcp;..\..\lib\d11\debug;..\..\source" -LN"..\..\lib\d11" -LE"c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+54 lines, 0.11 seconds, 96872 bytes code, 928 bytes data.
+Compilation success
+...done.
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclBaseExpert.dpk...
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclBaseExpert.dpk
+Compiling package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclBaseExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclBaseExpert.dpk" --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -N"..\..\lib\d11\debug" -I"..\..\lib\d11\debug;..\..\source" -R"..\..\lib\d11\debug;..\..\source" -U"..\..\lib\d11;c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\dcp;..\..\lib\d11\debug;..\..\source" -LN"..\..\lib\d11" -LE"c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+10697 lines, 0.64 seconds, 27272 bytes code, 324 bytes data.
+Compilation success
+Cleaning package cache for JclBaseExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclBaseExpert110.bpl
+Registration ok
+Installation of package finished
+...done.
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclDebugExpert.dpk...
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclDebugExpert.dpk
+Compiling package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclDebugExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclDebugExpert.dpk" --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -N"..\..\lib\d11\debug" -I"..\..\lib\d11\debug;..\..\source" -R"..\..\lib\d11\debug;..\..\source" -U"..\..\lib\d11;c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\dcp;..\..\lib\d11\debug;..\..\source" -LN"..\..\lib\d11" -LE"c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+2340 lines, 0.20 seconds, 15292 bytes code, 164 bytes data.
+Compilation success
+Cleaning package cache for JclDebugExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclDebugExpert110.bpl
+Registration ok
+Installation of package finished
+...done.
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclProjectAnalysisExpert.dpk...
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclProjectAnalysisExpert.dpk
+Compiling package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclProjectAnalysisExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclProjectAnalysisExpert.dpk" --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -N"..\..\lib\d11\debug" -I"..\..\lib\d11\debug;..\..\source" -R"..\..\lib\d11\debug;..\..\source" -U"..\..\lib\d11;c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\dcp;..\..\lib\d11\debug;..\..\source" -LN"..\..\lib\d11" -LE"c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+3673 lines, 0.22 seconds, 15864 bytes code, 144 bytes data.
+Compilation success
+Cleaning package cache for JclProjectAnalysisExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclProjectAnalysisExpert110.bpl
+Registration ok
+Installation of package finished
+...done.
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclFavoriteFoldersExpert.dpk...
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclFavoriteFoldersExpert.dpk
+Compiling package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclFavoriteFoldersExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclFavoriteFoldersExpert.dpk" --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -N"..\..\lib\d11\debug" -I"..\..\lib\d11\debug;..\..\source" -R"..\..\lib\d11\debug;..\..\source" -U"..\..\lib\d11;c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\dcp;..\..\lib\d11\debug;..\..\source" -LN"..\..\lib\d11" -LE"c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+3399 lines, 0.14 seconds, 8988 bytes code, 128 bytes data.
+Compilation success
+Cleaning package cache for JclFavoriteFoldersExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclFavoriteFoldersExpert110.bpl
+Registration ok
+Installation of package finished
+...done.
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclRepositoryExpert.dpk...
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclRepositoryExpert.dpk
+Compiling package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclRepositoryExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclRepositoryExpert.dpk" --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -N"..\..\lib\d11\debug" -I"..\..\lib\d11\debug;..\..\source" -R"..\..\lib\d11\debug;..\..\source" -U"..\..\lib\d11;c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\dcp;..\..\lib\d11\debug;..\..\source" -LN"..\..\lib\d11" -LE"c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+15776 lines, 0.91 seconds, 30164 bytes code, 304 bytes data.
+Compilation success
+Cleaning package cache for JclRepositoryExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclRepositoryExpert110.bpl
+Registration ok
+Installation of package finished
+...done.
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclSIMDViewExpert.dpk...
+Installing package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclSIMDViewExpert.dpk
+Compiling package E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclSIMDViewExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\5.0\bin\dcc32.exe" "E:\GAMEOF~1\GAMEOF~2\COMPON~1\JCL_JV~1\DEJOY_~1.14\packages\d11\JclSIMDViewExpert.dpk" --no-config -U"c:\PROGRA~1\codegear\RADSTU~1\5.0\lib" -N"..\..\lib\d11\debug" -I"..\..\lib\d11\debug;..\..\source" -R"..\..\lib\d11\debug;..\..\source" -U"..\..\lib\d11;c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\dcp;..\..\lib\d11\debug;..\..\source" -LN"..\..\lib\d11" -LE"c:\DOCUME~1\ALLUSE~1\DOCUME~1\RADSTU~1\5.0\bpl"
+CodeGear Delphi for Win32 compiler version 18.5
+Copyright (c) 1983,2007 CodeGear
+9810 lines, 0.31 seconds, 35324 bytes code, 624 bytes data.
+Compilation success
+Cleaning package cache for JclSIMDViewExpert110.bpl
+Cleaning ok
+Registering package C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\JclSIMDViewExpert110.bpl
+Registration ok
+Installation of package finished
+...done.

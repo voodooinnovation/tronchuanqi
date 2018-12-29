@@ -1,0 +1,31 @@
+首先 初始化 登陆场景类 然后初始化 fstate中的窗口 
+然后连接服务器 然后在runtimer 中改变为登陆场景 然后发送获取服务器信息 然后 获取后 隐藏登陆窗口 然后选择服务器 后再显示登陆窗口
+
+
+Actor.pas,,,精灵(包括人物heros,npc,怪物mon)类,但是主要是heros类,NPC以及mon类派生于actor类
+FState.dfm,,,各个子窗口,如f11,,f9等快捷键调出的窗口等
+clmain.dfm,,cl-client,,客户端主界面窗体,打开可以看到它use了Fstate.dfm
+fstate.pas,,FState.dfm的模块文件,,结合DWinCtl.pas和delphix中的绘图函数绘制各个子窗口在DDraw下真实效果的模块
+IntroScn.pas 游戏的引导场景实现,比如登录选人等
+clmain.pas,,clmain.dfm对应的源程序文件,,处理了程序启动时的网络连接,载入的wil客户端文件,等一系列操作
+WIL.pas 比较重要的文件之一,,在原delphix图像包装类的基础上改装而成,封装了wil文件及其全部操作(结合wmUtil)
+clEvent.pas 消息管理器
+DWinCtl.pas 提供几个在DX下使用的控件
+mir2.res 可能只有一个图标吧,就是那个龙字样的
+SoundUtil.pas wav文件夹内声音文件的调用操作
+wemade.pal 调色板文件
+mir2.dpr 工程文件
+EDCode.pas 消息加解密函数,6BIT加密算法的具体实现,用wpe截到的封包都是加密格式的,去掉密文前的!和最后的@
+ClFunc.pas 输助函数库
+MapUnit.pas 地图单元
+AxeMon.pas 怪物单元,包含怪物在客户端的攻击等效果的实现,由actor类派生,不知为什么命名为axemon斧怪
+怪物对主角的伤害等算法当然不包含在,这是服务器res的工作
+HerbActor.pas BOSS怪
+PlayScn.pas 相对于引导场景,这里是游戏主场景画面实现
+DrawScrn.pas 整个游戏场景的最终绘图工作
+Soundfx.h 音乐文件操作的预编译头
+magiceff.pas 客户端魔法效果的绘制与表现,当然也不包括魔法伤害实现.
+hutil32.pas,cliUtil.pas 包含了一些输助函数等 
+
+
+客户端所有收到数据都在TimerRun处理 DecodeMessagePacket 处理收到的每个命令
